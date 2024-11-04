@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     EditText person_income, person_home_ownership, person_emp_length, loan_grade, loan_amnt, loan_int_rate, loan_percent_income, cb_person_default_on_file;
     Button predict;
     TextView result;
-    String url = "https://loan-shashank-predictor-app.herokuapp.com/predict";
+    String url = "https://loan-shashank-predictor-app.render.com/predict";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
